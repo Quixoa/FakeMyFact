@@ -1,0 +1,107 @@
+<html>
+  <link rel="icon" 
+      type="image/png" 
+      href="http://d0od.wpengine.netdna-cdn.com/wp-content/uploads/2012/08/favicon.png">
+<head>
+	<style>
+  h1   {color:white}
+  p    {color:white}
+  form    {color:white;}
+  input {box-shadow: 3px 4px 5px #888888;}
+  h2	{color:white}
+  h3	{color:white}
+  h4	{color:white}
+  body{
+		padding:0;
+		margin:0 auto;
+		border:0;
+	} 
+  
+  #main {
+    width: 50%;
+    margin: 0 auto
+  }
+  
+  .left {
+    float: left;
+    clear: left;
+  }
+  
+  .right {
+    float: right;
+    clear: right;
+  }
+  
+  
+  div {
+    height: 100%;
+
+    background: -webkit-linear-gradient(black, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, white); /* Standard syntax (must be last) */
+}
+  
+  h1 {
+	  size:500%;
+  }
+  h2 {
+    size:200%
+  }
+input{
+  size:200%;
+}  
+#mysubmit { 
+size:200%;
+background-color: white; 
+font-size: 100%; 
+padding: 10px;
+font-weight: bold;
+width:100%; }
+</style>
+
+
+
+<title>Fake My Fact</title>
+</head>
+<body>
+
+  <div id="gradient">
+   <div id='main'>
+
+
+<center>
+	<h1>Fake My Fact</h1>
+<h2> Prank your friends!</h2>
+<h3> Have you ever had a moment when you knew you were wrong buy wanted to be right. Now, it's quick and easy to always be right. With FakeMyFact, you can enter a couple of things, and we will generate google results, historical evidence, and even fake news articles to prove your point.
+  All you have to do is enter a fake news headline, the sentence that says exactly what you want, and a keyword, and you will never be wrong again.</h3>
+</center>
+ 
+
+<form action="generate.php" method="post">
+
+    <span class='left'>Search Result Headline: </span> <span class='right'><input type="text" size = "50" name="headline"></input></span><br><br>
+	 <span class='left'>	Sentence:</span>  <span class='right'><input type="text" size = "50" name="sentence"></span><br><br>
+		
+     <span class='left'>	Keyword:</span> <span class='right'> <input type="text" size = "50" name="keyword"></span><br><br>
+        <span class='left'>Type</span> <span class='right'><select name="type">
+          <option value="Sports">Sports</option>
+          <option value="News">News</option>
+          <option value="CNN">CNN News Article</option>
+        <option value="History">History</option>
+          
+      </select></span>
+      <br></br>
+      <br></br>
+      <center>	<input id = "mysubmit" type="submit"></center>
+
+</form>
+
+
+
+<!--</center>-->
+
+</body>
+</div>
+  </div>
+</html>
